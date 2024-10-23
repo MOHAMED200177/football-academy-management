@@ -1,1 +1,0 @@
-const Academy = require('../models/academy');

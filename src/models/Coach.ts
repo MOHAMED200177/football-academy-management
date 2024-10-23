@@ -1,4 +1,4 @@
-const mongoose = require('mongoose');
+import mongoose from 'mongoose';
 
 const CoachSchema = new mongoose.Schema({
     name: {
@@ -15,4 +15,4 @@ const CoachSchema = new mongoose.Schema({
     },
 });
 
-module.exports = mongoose.model('Coach', CoachSchema);
+export default mongoose.model('Coach', CoachSchema);
